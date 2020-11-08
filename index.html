@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifrado Cesar</title>
+    <link rel="stylesheet" type="text/css" href="CSS/stylesheet.css">
+</head>
+<body>
+    <div id="principal">
+        <h1>CIFRADO CESAR</h1>
+
+        <p>
+        Este cifrado es un ejemplo del cifrado original de Cesar
+        en el cual se usa un cambio de posicion dentro alfabeto
+        en 3 lugares.
+        PD. Quiero mi calaverita (uwu)/
+        </p>
+
+         <p>Ingrese una letra del alfabeto (a-z) :</p>
+
+        <form class="form-register" onsubmit="return validar();" action="#">
+            <textarea id="cadena" ></textarea>
+
+            <p>Ingrese el numero de desplazamientos que desea :</p>
+            <input type="number" id="despo" placeholder="" >
+
+            <p> 
+                <button type="submit" onclick="codificar()" >Cifrar</button>
+                <button type="submit" onclick="decodificar()" >Descifrar</button>  
+            </p>
+
+        </form>
+        <div id="resultado" ></div>
+    </div>
+
+    
+<script src="js/logica.js" > </script>
+</body>
+</html> 

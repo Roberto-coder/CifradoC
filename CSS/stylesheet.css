@@ -1,0 +1,51 @@
+#principal{
+    background-image: url("../font.jpg");
+    width: 960px;
+    background-size:100%;
+    background-repeat:repeat-y;
+    /*background-position: 30px;*/
+    width: 950px;
+    height: 650px;  
+    border: 1px solid #0CBABA;
+    margin: auto;
+}
+
+#principal {
+    text-align: center;
+}
+
+#principal p{
+    text-align: center;
+    color: #FFFFFF ;
+    font-size: 30px;
+    font-weight: 100px;
+    text-shadow: 2px 0 0 #000, -2px 0 0 #000, 0 2px 0 #000, 0 -2px 0 #000, 1px 1px #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000;
+
+}
+
+#resultado{
+    color: black ;
+    font-size: 30px;
+    font-weight: 100px;
+    letter-spacing: 8px;
+    margin-bottom: 20px;
+    background: none;
+    position: relative;
+    animation: text 3s 1;
+    -webkit-animation-iteration-count:infinite;
+    text-align: center;
+}
+
+@keyframes text{
+
+    0%{
+        color: white;
+        margin-bottom: -40px;
+    }30%{
+        letter-spacing: 10px;
+        margin-bottom: -40px;
+    }85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
